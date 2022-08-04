@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+@layer components{
+    .sub-title {
+        @apply
+        dark:text-white text-center text-3xl
+    }
+
+    .faq {
+        @apply
+            flex flex-1 justify-center z-10 gap-10 py-5 px-7
+    }
+
+    .form-join {
+        @apply
+            flex flex-wrap justify-center z-10 gap-5 py-5
+    }
+
+    .round-card {
+        @apply
+            w-72 min-h-[10rem] rounded-full
+    }
+
+    .form-email {
+        @apply
+            rounded-xl py-2 px-2 text-white w-64 hover:border-0
+    }
+
+    .card {
+        @apply
+        w-72 min-h-[10rem]
+        shadow-lg rounded-lg overflow-hidden hover:bg-abu-abu text-putih
+        
+    }
+}
